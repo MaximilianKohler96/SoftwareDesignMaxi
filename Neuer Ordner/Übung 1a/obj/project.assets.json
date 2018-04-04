@@ -670,9 +670,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MaximilianKohler\\Documents\\SoftwareDesignMaxi\\Neuer Ordner\\Übung 1a\\Übung 2.csproj",
-      "projectName": "Übung 2",
-      "projectPath": "C:\\Users\\MaximilianKohler\\Documents\\SoftwareDesignMaxi\\Neuer Ordner\\Übung 1a\\Übung 2.csproj",
+      "projectUniqueName": "C:\\Users\\MaximilianKohler\\Documents\\SoftwareDesignMaxi\\Neuer Ordner\\Übung 1a\\Übung 1a.csproj",
+      "projectName": "Übung 1a",
+      "projectPath": "C:\\Users\\MaximilianKohler\\Documents\\SoftwareDesignMaxi\\Neuer Ordner\\Übung 1a\\Übung 1a.csproj",
       "packagesPath": "C:\\Users\\MaximilianKohler\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\MaximilianKohler\\Documents\\SoftwareDesignMaxi\\Neuer Ordner\\Übung 1a\\obj\\",
       "projectStyle": "PackageReference",
