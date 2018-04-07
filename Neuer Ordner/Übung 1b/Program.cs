@@ -48,7 +48,7 @@ namespace Übung_1b
                     robj++;
                 }
 
-                Console.WriteLine(subject + " " + verb + " " + objectab);
+                Console.WriteLine("< " + subject + " " + verb + " " + objectab + " >");
             }
 
         }
