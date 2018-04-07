@@ -4,11 +4,15 @@ namespace Aufgabe1._2
 {
     class Program
     {
-        static string[] subjects = { "Gandalf", "Frodo", "Boromir", "Sauron", "Galadriel", "Aragorn" };
-        static string[] verbs = { "trinkt", "braut", "hasst", "zaubert", "schneidet", "beschwört" };
-        static string[] objects = { "Tüften", "Kraut", "Bier", "Osgiliath", "roter Tobi", "Bree" };
+        static void Main(string[] args) {
+
         
-        getVerse(subjects, verbs, objects);
+            string[] subjects = { "Gandalf", "Frodo", "Boromir", "Sauron", "Galadriel", "Aragorn" };
+            string[] verbs = { "trinkt", "braut", "hasst", "zaubert", "schneidet", "beschwört" };
+            string[] objects = { "Tüften", "Kraut", "Bier", "Osgiliath", "roter Tobi", "Bree" };
+        
+            getVerse(subjects, verbs, objects);
+        }
     }
 
     public static void getVerse(string[] subjects, string[] verbs, string[] objects) {
@@ -50,3 +54,4 @@ namespace Aufgabe1._2
         }
 
     }
+}
