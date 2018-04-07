@@ -6,7 +6,7 @@ namespace Aufgabe1._2
     {
         static string[] subjects = { "Gandalf", "Frodo", "Boromir", "Sauron", "Galadriel", "Aragorn" };
         static string[] verbs = { "trinkt", "braut", "hasst", "zaubert", "schneidet", "beschwört" };
-        static string[] objects = { "Tüften", "Kraut", "Bier", "Hogwards", "roter Tobi", "Bree" };
+        static string[] objects = { "Tüften", "Kraut", "Bier", "Osgiliath", "roter Tobi", "Bree" };
         
         static int l = subjects.Length;
         static string w1;
