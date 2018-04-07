@@ -13,7 +13,7 @@ namespace Übung_1b
         
             getVerse(subjects, verbs, objects);
         }
-    }
+    
 
     public static void getVerse(string[] subjects, string[] verbs, string[] objects) {
         string verb;
@@ -54,4 +54,5 @@ namespace Übung_1b
         }
 
     }
+}
 }
