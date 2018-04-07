@@ -50,8 +50,6 @@ namespace Übung_1b
 
                 Console.WriteLine("< " + subject + " " + verb + " " + objectab + " >");
             }
-
         }
-
     }
 }
