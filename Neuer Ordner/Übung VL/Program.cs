@@ -10,14 +10,18 @@ namespace Übung_VL
             einePerson.FirstName = "Horst";
             einePerson.Age = 42;
 
-            Console.WriteLine()
-
+            Console.WriteLine("Name: " + einePerson.FirstName + "   Alter: " + einePerson.Age);
+            
         }
 
         public class Person
         {
             public string FirstName;
             public int Age;
+            public override string ToString()
+            {
+                return FirstName + "  " + Age;
+            }
         }
     }
 }
