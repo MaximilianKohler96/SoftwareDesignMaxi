@@ -19,12 +19,35 @@ namespace Debugging
         public static Person Find(Person person)
         {
             Person ret = null;
-            if (person.LastName != "Battenberg")
-                return person;
+            // if (person.LastName != "Cambridge" && person.LastName !=  "Spencer")
+            //     return person;
 
+            // ret = Find(person.Mom);
+            // if (ret != null)
+            //     return ret;
+            // ret = Find(person.Dad);
+            // return ret;
+
+
+            // if (person.LastName == "Battenberg")
+            //     return person;
+            // if(person.Mom != null)
+            // ret = Find(person.Mom);
+            // if (ret != null)
+            //     return ret;
+            // if(person.Mom != null)
+            // ret = Find(person.Dad);
+            // return ret;
+
+            int age = DateTime.Now.Year - person.DateOfBirth.Year;
+            if(40 < age && age < 70)
+                return person;
+                
+            if(person.Mom != null)
             ret = Find(person.Mom);
             if (ret != null)
                 return ret;
+            if(person.Mom != null)
             ret = Find(person.Dad);
             return ret;
         }
