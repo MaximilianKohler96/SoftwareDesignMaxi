@@ -33,7 +33,7 @@ namespace Übung_3
 
             if (klasse == "XtoY" )
             {
-                Console.WriteLine("Die Zahl " + value + " wird zur Dezimalzahl " + ConvertNumberToBaseFromBase(number, toBase, fromBase));
+                Console.WriteLine("Die Zahl " + value + " im " + toBase + "er System wird zur Zahl " + ConvertNumberToBaseFromBase(number, toBase, fromBase));
             } 
 
                                   
