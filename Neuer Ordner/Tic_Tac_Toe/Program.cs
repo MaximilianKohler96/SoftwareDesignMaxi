@@ -12,6 +12,8 @@ namespace Tic_Tac_Toe
             int counter = 0;
             int row = ' ';
             int col = ' ';
+            int inold = ' ';
+            int input = ' ';
             
             while (true)
             {
@@ -19,7 +21,7 @@ namespace Tic_Tac_Toe
                 Print(matchfield);
 
                 Console.Write("Please enter your Pick on the Numpad 1-9  and Press ENTER  ");
-                int input = Convert.ToInt32(Console.ReadLine());
+                input = Convert.ToInt32(Console.ReadLine());
 
                 if (input == 1)
                 {
@@ -75,7 +77,13 @@ namespace Tic_Tac_Toe
                     col = 2;
                 }
 
-                
+                if (input == inold)
+                {
+                    break;
+                }
+
+                inold = input;
+
                 matchfield[row, col] = player;
 
                 if (player == matchfield[0,0] && player == matchfield[0,1] && player == matchfield[0,2])
@@ -142,6 +150,11 @@ namespace Tic_Tac_Toe
                 Console.WriteLine("!!  DRAW  !!");
                     
             }
+
+            if (input == inold)
+                {
+                    Console.WriteLine("Please take another Field, that One is already occupied");
+                }
 
         }
 
