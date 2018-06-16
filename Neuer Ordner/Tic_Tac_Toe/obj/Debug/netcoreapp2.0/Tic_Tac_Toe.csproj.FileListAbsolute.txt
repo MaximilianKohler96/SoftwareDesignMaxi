@@ -1,0 +1,11 @@
+C:\Users\MaximilianKohler\Documents\SoftwareDesignMaxi\Neuer Ordner\Tic_Tac_Toe\bin\Debug\netcoreapp2.0\Tic_Tac_Toe.deps.json
+C:\Users\MaximilianKohler\Documents\SoftwareDesignMaxi\Neuer Ordner\Tic_Tac_Toe\bin\Debug\netcoreapp2.0\Tic_Tac_Toe.runtimeconfig.json
+C:\Users\MaximilianKohler\Documents\SoftwareDesignMaxi\Neuer Ordner\Tic_Tac_Toe\bin\Debug\netcoreapp2.0\Tic_Tac_Toe.runtimeconfig.dev.json
+C:\Users\MaximilianKohler\Documents\SoftwareDesignMaxi\Neuer Ordner\Tic_Tac_Toe\bin\Debug\netcoreapp2.0\Tic_Tac_Toe.dll
+C:\Users\MaximilianKohler\Documents\SoftwareDesignMaxi\Neuer Ordner\Tic_Tac_Toe\bin\Debug\netcoreapp2.0\Tic_Tac_Toe.pdb
+C:\Users\MaximilianKohler\Documents\SoftwareDesignMaxi\Neuer Ordner\Tic_Tac_Toe\obj\Debug\netcoreapp2.0\Tic_Tac_Toe.csprojResolveAssemblyReference.cache
+C:\Users\MaximilianKohler\Documents\SoftwareDesignMaxi\Neuer Ordner\Tic_Tac_Toe\obj\Debug\netcoreapp2.0\Tic_Tac_Toe.csproj.CoreCompileInputs.cache
+C:\Users\MaximilianKohler\Documents\SoftwareDesignMaxi\Neuer Ordner\Tic_Tac_Toe\obj\Debug\netcoreapp2.0\Tic_Tac_Toe.AssemblyInfoInputs.cache
+C:\Users\MaximilianKohler\Documents\SoftwareDesignMaxi\Neuer Ordner\Tic_Tac_Toe\obj\Debug\netcoreapp2.0\Tic_Tac_Toe.AssemblyInfo.cs
+C:\Users\MaximilianKohler\Documents\SoftwareDesignMaxi\Neuer Ordner\Tic_Tac_Toe\obj\Debug\netcoreapp2.0\Tic_Tac_Toe.dll
+C:\Users\MaximilianKohler\Documents\SoftwareDesignMaxi\Neuer Ordner\Tic_Tac_Toe\obj\Debug\netcoreapp2.0\Tic_Tac_Toe.pdb

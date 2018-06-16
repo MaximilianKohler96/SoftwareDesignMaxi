@@ -1,0 +1,11 @@
+C:\Users\MaximilianKohler\Documents\SoftwareDesignMaxi\Neuer Ordner\Unit-Test\Mail_Checker\obj\Debug\netcoreapp2.0\Mail_Checker.csprojResolveAssemblyReference.cache
+C:\Users\MaximilianKohler\Documents\SoftwareDesignMaxi\Neuer Ordner\Unit-Test\Mail_Checker\obj\Debug\netcoreapp2.0\Mail_Checker.csproj.CoreCompileInputs.cache
+C:\Users\MaximilianKohler\Documents\SoftwareDesignMaxi\Neuer Ordner\Unit-Test\Mail_Checker\obj\Debug\netcoreapp2.0\Mail_Checker.AssemblyInfoInputs.cache
+C:\Users\MaximilianKohler\Documents\SoftwareDesignMaxi\Neuer Ordner\Unit-Test\Mail_Checker\obj\Debug\netcoreapp2.0\Mail_Checker.AssemblyInfo.cs
+C:\Users\MaximilianKohler\Documents\SoftwareDesignMaxi\Neuer Ordner\Unit-Test\Mail_Checker\bin\Debug\netcoreapp2.0\Mail_Checker.deps.json
+C:\Users\MaximilianKohler\Documents\SoftwareDesignMaxi\Neuer Ordner\Unit-Test\Mail_Checker\bin\Debug\netcoreapp2.0\Mail_Checker.runtimeconfig.json
+C:\Users\MaximilianKohler\Documents\SoftwareDesignMaxi\Neuer Ordner\Unit-Test\Mail_Checker\bin\Debug\netcoreapp2.0\Mail_Checker.runtimeconfig.dev.json
+C:\Users\MaximilianKohler\Documents\SoftwareDesignMaxi\Neuer Ordner\Unit-Test\Mail_Checker\bin\Debug\netcoreapp2.0\Mail_Checker.dll
+C:\Users\MaximilianKohler\Documents\SoftwareDesignMaxi\Neuer Ordner\Unit-Test\Mail_Checker\bin\Debug\netcoreapp2.0\Mail_Checker.pdb
+C:\Users\MaximilianKohler\Documents\SoftwareDesignMaxi\Neuer Ordner\Unit-Test\Mail_Checker\obj\Debug\netcoreapp2.0\Mail_Checker.dll
+C:\Users\MaximilianKohler\Documents\SoftwareDesignMaxi\Neuer Ordner\Unit-Test\Mail_Checker\obj\Debug\netcoreapp2.0\Mail_Checker.pdb
