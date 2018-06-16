@@ -123,9 +123,6 @@ namespace Tic_Tac_Toe
 
                 if (counter == 9)
                 {
-                    Console.Clear();
-                    Print(matchfield);
-                    Console.WriteLine("!!  DRAW  !!");
                     break;
                 }
                 
@@ -138,6 +135,14 @@ namespace Tic_Tac_Toe
             Console.Clear();
             Print(matchfield);
             Console.WriteLine("!!  " + player + "  has won the Game  !!");
+
+            if (counter == 9)
+            {
+                Console.Clear();
+                Print(matchfield);
+                Console.WriteLine("!!  DRAW  !!");
+                    
+            }
 
         }
 
