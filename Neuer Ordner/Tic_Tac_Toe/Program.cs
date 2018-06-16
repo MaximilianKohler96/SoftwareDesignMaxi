@@ -10,6 +10,8 @@ namespace Tic_Tac_Toe
             char[,] matchfield = new char[3, 3];
             Initialize(matchfield);
             int counter = 0;
+            int row = ' ';
+            int col = ' ';
             
             while (true)
             {
@@ -17,11 +19,64 @@ namespace Tic_Tac_Toe
                 Print(matchfield);
 
                 //Console.Write("Please enter a char from 1-9 on your Numpad. To restart the Game Press 0");
-                Console.Write("Please enter row: ");
-                int row = Convert.ToInt32(Console.ReadLine());
-                Console.Write("Please enter column: ");
-                int col = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Please enter your Pick on the Numpad 1-9   ");
+                int input = Convert.ToInt32(Console.ReadLine());
 
+                if (input == 1)
+                {
+                    row = 2;
+                    col = 0;
+                }
+
+                if (input == 2)
+                {
+                    row = 2;
+                    col = 1;
+                }
+
+                if (input == 3)
+                {
+                    row = 2;
+                    col = 2;
+                }
+
+                if (input == 4)
+                {
+                    row = 1;
+                    col = 0;
+                }
+
+                if (input == 5)
+                {
+                    row = 1;
+                    col = 1;
+                }
+
+                if (input == 6)
+                {
+                    row = 1;
+                    col = 2;
+                }
+
+                if (input == 7)
+                {
+                    row = 0;
+                    col = 0;
+                }
+
+                if (input == 8)
+                {
+                    row = 0;
+                    col = 1;
+                }
+
+                if (input == 9)
+                {
+                    row = 0;
+                    col = 2;
+                }
+
+                
                 matchfield[row, col] = player;
 
                 if (player == matchfield[0,0] && player == matchfield[0,1] && player == matchfield[0,2])
