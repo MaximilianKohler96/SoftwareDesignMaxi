@@ -120,6 +120,7 @@ namespace Tic_Tac_Toe
                 }
 
                 counter = counter + 1;
+
                 if (counter == 9)
                 {
                     Console.Clear();
@@ -127,9 +128,12 @@ namespace Tic_Tac_Toe
                     Console.WriteLine("!!  DRAW  !!");
                     break;
                 }
-
+                
                 player = ChangeTurn(player);
+                
             }  
+
+            
 
             Console.Clear();
             Print(matchfield);
