@@ -18,7 +18,7 @@ namespace Tic_Tac_Toe
                 Console.Clear();
                 Print(matchfield);
 
-                Console.Write("Please enter your Pick on the Numpad 1-9   ");
+                Console.Write("Please enter your Pick on the Numpad 1-9  and Press ENTER  ");
                 int input = Convert.ToInt32(Console.ReadLine());
 
                 if (input == 1)
