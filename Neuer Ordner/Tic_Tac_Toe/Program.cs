@@ -12,7 +12,6 @@ namespace Tic_Tac_Toe
             int counter = 0;
             int row = ' ';
             int col = ' ';
-            int inold = ' ';
             int input = ' ';
             
             while (true)
@@ -77,12 +76,6 @@ namespace Tic_Tac_Toe
                     col = 2;
                 }
 
-                if (input == inold)
-                {
-                    break;
-                }
-
-                inold = input;
 
                 matchfield[row, col] = player;
 
@@ -146,16 +139,11 @@ namespace Tic_Tac_Toe
             if (counter == 9)
             {
                 Console.Clear();
+                int madebyMaxiK = ' ';
                 Print(matchfield);
                 Console.WriteLine("!!  DRAW  !!");
                     
             }
-
-            if (input == inold)
-                {
-                    Console.WriteLine("Please take another Field, that One is already occupied");
-                }
-
         }
 
 
