@@ -18,7 +18,6 @@ namespace Tic_Tac_Toe
                 Console.Clear();
                 Print(matchfield);
 
-                //Console.Write("Please enter a char from 1-9 on your Numpad. To restart the Game Press 0");
                 Console.Write("Please enter your Pick on the Numpad 1-9   ");
                 int input = Convert.ToInt32(Console.ReadLine());
 
