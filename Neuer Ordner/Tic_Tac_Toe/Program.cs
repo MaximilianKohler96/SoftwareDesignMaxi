@@ -1,83 +1,46 @@
 ﻿using System;
 
-namespace Tic_Tac_Toe
+namespace Augabe8
 {
     class Program
     {
+        private const bool V = true;
+
         static void Main(string[] args)
         {
             char player = 'X';
             char[,] matchfield = new char[3, 3];
             Initialize(matchfield);
-            int counter = 0;
-            int row = ' ';
-            int col = ' ';
-            int input = ' ';
+            int counter=0;
+            int input;
             
-            while (true)
-            {
+            while (true) {
                 Console.Clear();
                 Print(matchfield);
-
                 Console.Write("Please enter your Pick on the Numpad 1-9  and Press ENTER  ");
                 input = Convert.ToInt32(Console.ReadLine());
 
-                if (input == 1)
-                {
-                    row = 2;
-                    col = 0;
+                if (inputcheck(input)) {
+                    int help=9;
+                    for (int i=0; i<3; i++) {
+                        for (int l=0; l<3; l++) {
+                            if (input == help) {
+                                if (matchfield[i,2-l] != ' ') {
+                                    Console.WriteLine("Your choosen position is already taken. Please choose another one.");
+                                    Console.Write("\nPress any key to continue... ");
+                                    Console.ReadLine();
+                                } else {
+                                    matchfield[i,2-l] = player;
+                                    player = ChangeTurn(player);
+                                    counter++;
+                                }
+                            }
+                        help--;
+                        }
+                    }
+                
                 }
-
-                if (input == 2)
-                {
-                    row = 2;
-                    col = 1;
-                }
-
-                if (input == 3)
-                {
-                    row = 2;
-                    col = 2;
-                }
-
-                if (input == 4)
-                {
-                    row = 1;
-                    col = 0;
-                }
-
-                if (input == 5)
-                {
-                    row = 1;
-                    col = 1;
-                }
-
-                if (input == 6)
-                {
-                    row = 1;
-                    col = 2;
-                }
-
-                if (input == 7)
-                {
-                    row = 0;
-                    col = 0;
-                }
-
-                if (input == 8)
-                {
-                    row = 0;
-                    col = 1;
-                }
-
-                if (input == 9)
-                {
-                    row = 0;
-                    col = 2;
-                }
-
-
-                matchfield[row, col] = player;
+                
 
                 if (player == matchfield[0,0] && player == matchfield[0,1] && player == matchfield[0,2])
                 {
@@ -118,20 +81,15 @@ namespace Tic_Tac_Toe
                 {
                     break;
                 }
-
-                counter = counter + 1;
-
                 if (counter == 9)
                 {
                     break;
                 }
                 
-                player = ChangeTurn(player);
                 
-            }  
-
+                
             
-
+            }
             Console.Clear();
             Print(matchfield);
             Console.WriteLine("!!  " + player + "  has won the Game  !!");
@@ -139,26 +97,29 @@ namespace Tic_Tac_Toe
             if (counter == 9)
             {
                 Console.Clear();
-                int madebyMaxiK = ' ';
+                int madebyMaxKundJoscha = ' ';
                 Print(matchfield);
                 Console.WriteLine("!!  DRAW  !!");
-                    
             }
         }
 
-
-        static char ChangeTurn(char currentPlayer)
-        {
-            if (currentPlayer == 'X' )
-                {
-                    return 'O';
-                }
-                else
-                {
-                    return 'X';
-                }
+        static bool inputcheck(int inp) {
+            if (inp <=9 && inp >= 1) {
+                return true;
+            } else {
+                Console.WriteLine("Your input has to be a number between 1 and 9.");
+                Console.Write("\nPress any key to continue... ");
+                Console.ReadLine();
+            return false;
+            }
         }
 
+        static char ChangeTurn(char currentPlayer) {
+            if (currentPlayer == 'X' )
+                return 'O';
+            else
+                return 'X';
+        }
 
         static void Initialize(char[,] matchfield)
         {
@@ -170,7 +131,6 @@ namespace Tic_Tac_Toe
                 }
             }
         }
-
 
         static void Print(char[,] matchfield)
         {
