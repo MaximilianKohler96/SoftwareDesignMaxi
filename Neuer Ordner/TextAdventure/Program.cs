@@ -1,12 +1,23 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace TextAdventure
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
+            Game _Game = new Game();
+            _Game.initialize();
+            
+            while ( _Game.isRunning)
+            {
+                _Game.Update();
+            }  
         }
     }
 }
